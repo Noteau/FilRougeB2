@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".AddUser">
+
+    <Button
+        android:id="@+id/btLinkMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Annuler"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ajouter un Utilisateur"/>
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom : "/>
+
+    <EditText
+        android:id="@+id/edUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Groupe : "/>
+
+    <EditText
+        android:id="@+id/edGroupUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvUO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unité Organisationnelle"/>
+
+    <EditText
+        android:id="@+id/edUOUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btValidation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Valider"/>
+
+</LinearLayout>
